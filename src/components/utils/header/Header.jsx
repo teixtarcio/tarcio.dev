@@ -35,17 +35,17 @@ export class Header extends Component {
               <div className="mobile_menu_container">
                 <ul>
                   <li><Link to='/' onClick={this.toggleMenu.bind(this)}>Home</Link> </li>
-                  <li><Link to='/work' onClick={this.toggleMenu.bind(this)}>Work</Link> </li>
-                  <li><Link to='/resume' onClick={this.toggleMenu.bind(this)}>Résumé</Link> </li>
-                  <li><Link to='/contact' onClick={this.toggleMenu.bind(this)}>Contact</Link> </li>
+                  <li><Link to='/work' onClick={this.toggleMenu.bind(this)}>Projetos</Link> </li>
+                  <li><Link to='/resume' onClick={this.toggleMenu.bind(this)}>Currículo</Link> </li>
+                  <li><Link to='/contact' onClick={this.toggleMenu.bind(this)}>Contato</Link> </li>
                 </ul>
 
                 <div className="social_box">
-                <h3>Connect With Me</h3>
+                <h3>Minhas redes</h3>
                   <div className="social_icons">
-                    <a href="https://github.com/kadetXx"><i className='fab fa-github'></i></a> 
-                    <a href="https://twitter.com/kadetXx"><i className='fab fa-twitter'></i></a>
-                    <a href="https://www.linkedin.com/in/collins-enebeli-online/"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/teixtarcio"><i className='fab fa-github'></i></a> 
+                    <a href="https://instagram.com/teixtarcio"><i className='fab fa-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/teixtarcio/"><i className="fab fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>

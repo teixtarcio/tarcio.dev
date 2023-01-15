@@ -93,21 +93,21 @@ export class App extends Component {
 
             <div className='social_buttons'>
               <a
-                href='https://github.com/kadetXx'
+                href='https://github.com/teixtarcio'
                 target='_blank'
                 rel='noopener noreferrer'
               >
                 <i className='fab fa-github'></i>
               </a>
               <a
-                href='https://twitter.com/kadetXx'
+                href='https://instagram.com/teixtarcio'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <i className='fab fa-twitter'></i>
+                <i className='fab fa-instagram'></i>
               </a>
               <a
-                href='https://www.linkedin.com/in/collins-enebeli-online/'
+                href='https://www.linkedin.com/in/teixtarcio/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
