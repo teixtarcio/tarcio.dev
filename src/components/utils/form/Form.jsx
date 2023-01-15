@@ -19,36 +19,36 @@ export class Form extends Component {
 
     return (
       <div>
-        <form name="contact" method="post" action="https://formspree.io/xqkyjgjr" onSubmit={this.submitForm} >
+        <form name="contact" method="post" action="https://formspree.io/f/xrgvbgvw" onSubmit={this.submitForm} >
           <input type="hidden" name="form-name" value="contact" />
           <div className="form_section">
             <label>
-              <span>Your Name*</span>
+              <span>Seu nome:</span>
               <input type="text" name="name" required />
             </label>
           </div>
 
           <div className="form_section">
             <label>
-              <span>Your Email*</span>
+              <span>Seu e-mail:</span>
               <input required type="email" name="email"  />
             </label>
           </div>
 
           <div className="form_section">
             <label>
-              <span>Your Message*</span>
+              <span>Sua mensagem:</span>
               <textarea required name="message" rows="10"  minLength="30" ></textarea>
             </label>
           </div>
 
           <div className="form_section">
-            <button type='submit' > { !loading ? "Shoot" : <i class="fas fa-ellipsis-h"></i> } </button>
+            <button type='submit' > { !loading ? "Enviar" : <i class="fas fa-ellipsis-h"></i> } </button>
           </div>
         </form>
 
         {status === "SUCCESS" ? <Success display={this.setStatus.bind(this)} /> : ''}
-        {status === "ERROR" && <p style={{textAlign: 'center', color: 'red'}}> <b>Ooops! There was an error.</b></p>}
+        {status === "ERROR" && <p style={{textAlign: 'center', color: 'red'}}> <b>Ooops! Os esquilos pararam de correr, tente novamente.</b></p>}
 
       </div>
     )
