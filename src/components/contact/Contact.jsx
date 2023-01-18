@@ -15,12 +15,12 @@ export class Contact extends Component {
         <div className='go_button_container'>
           <Link to='/work'>
             <button>
-              <span class='material-icons'>arrow_left</span> Work
+              <span class='material-icons'>arrow_left</span> Projetos
             </button>
           </Link>
           <Link to='/resume'>
             <button>
-              Resume <span class='material-icons'>arrow_right</span>{" "}
+              Currículo <span class='material-icons'>arrow_right</span>{" "}
             </button>
           </Link>
         </div>

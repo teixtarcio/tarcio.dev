@@ -56,10 +56,10 @@ export class Resume extends Component {
       <div className="resume">
         <div className="resume_container">
           <div className="top_row">
-            <h2>Collins Enebeli</h2>
+            <h2>Tárcio Teixeira</h2>
             <div className="buttons">
               <a
-                href="https://www.linkedin.com/in/collins-enebeli-online/"
+                href="https://www.linkedin.com/in/teixtarcio/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -79,115 +79,54 @@ export class Resume extends Component {
             </div>
           </div>
 
-          <p className="subheading">Frontend Developer</p>
+          <p className="subheading">Desenvolvedor mobile</p>
 
           <div className="summary">
             <p>
-              I’m a Frontend software developer, passionate about transforming
-              ideas from pixels to scalable products. I create functional
-              applications with user experience as top priority.
+            Sou um desenvolvedor mobile, apaixonado por tecnologia. 
+            Estou sempre buscando aprender e me atualizar sobre as últimas 
+            tendências e novidades do mercado, além disso tenho total convicção 
+            que posso trazer valor para qualquer equipe com minhas habilidades 
+            e paixão pelo desenvolvimento de aplicativos.
             </p>
           </div>
 
           <div className="divider">
-            <p>Core Technologies</p>
+            <p>Minhas tecnologias</p>
             <span></span>
           </div>
 
           <div className="skills">
             <p>
-              HTML/CSS, SASS, Javascript [ES6], React Js, Next Js, Vue Js,
-              CSS-in-JS, GraphQL, Redux, Firebase.
+              HTML/CSS, Javascript [ES6], Typescript, React, React Native e Expo.
             </p>
           </div>
 
           <div className="divider">
-            <p>Familiar With</p>
+            <p>Entusiasta em</p>
             <span></span>
           </div>
 
           <div className="skills">
             <p>
-              Typescript, Flux, Node Js, Express, Web Sockets, PWAs, Wordpress,
-              SEO.
+              Segurança da informação, hacking ético, blockchain e outros.
             </p>
           </div>
 
           <div className="divider">
-            <p>On The Job</p>
+            <p>No trabalho</p>
             <span></span>
           </div>
 
           <div className="skills">
-            <p>Scrum, CI/CD, Version Control, Best Practices</p>
-          </div>
-
-          <div className="divider">
-            <p>Experience</p>
-            <span></span>
-          </div>
-
-          <div className="exp_container">
-            {experience.map((exp, index) => (
-              <section className="experience" key={index}>
-                <p className="title">
-                  {exp.company} - <i>{exp.position}</i>
-                  <span>
-                    <br /> {exp.started.toUpperCase()} -{" "}
-                    {exp.ended === null ? "PRESENT" : exp.ended.toUpperCase()}
-                  </span>
-                </p>
-
-                <article className="description">
-                  <p> {exp.description} </p>
-                  {exp.achievements.map((achievement, index) => (
-                    <p key={index}>
-                      <span>■</span> {achievement}
-                    </p>
-                  ))}
-                </article>
-              </section>
-            ))}
-          </div>
-
-          <div className="divider">
-            <p>Education</p>
-            <span></span>
-          </div>
-
-          <div className="exp_container">
-            <section className="experience">
-              <p className="title">
-                Federal University Of Petroleum Resources Effurun — B.Eng,
-                Marine Engineering
-                <span>
-                  <br /> 2017-2022
-                </span>
-              </p>
-            </section>
-          </div>
-
-          <div className="divider">
-            <p>Projects</p>
-            <span></span>
-          </div>
-
-          <div className="exp_container">
-            <section className="experience">
-              <article className="description">
-                <p>
-                  Links to my works can be found on <span> </span>{" "}
-                  <Link to="/work">kadet.dev/work</Link>{" "}
-                </p>
-              </article>
-            </section>
+            <p>Metodologia Scrum, código limpo e boas práticas.</p>
           </div>
         </div>
 
         <div className="go_button_container">
           <Link to="/contact">
             <button>
-              <span class="material-icons">arrow_left</span> Contact
+              <span class="material-icons">arrow_left</span> Contato
             </button>
           </Link>
           <Link to="/">

@@ -81,11 +81,11 @@ export class Base extends Component {
             </a>
 
             <a
-              href='https://instagram.com/teixtarcio'
+              href='https://www.linkedin.com/in/teixtarcio/'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <i className='fab fa-instagram'></i> Instagram{" "}
+              <i className='fab fa-linkedin'></i> Linkedin{" "}
               <img src={arrow} alt='pointer' />
             </a>
           </div>

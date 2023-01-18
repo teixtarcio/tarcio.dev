@@ -8,8 +8,8 @@ export class Success extends Component {
       <div id='success'>
         <div className='error_container'>
           <h1><i className='fas fa-check-double'></i></h1>
-          <h2>Your message has been sent</h2>
-          <p>Thanks for reaching out. Don't worry, I normally reply mails within 24hrs.  </p>
+          <h2>Sua mensagem foi enviada</h2>
+          <p>Agradecemos seu contato. Não se preocupe, normalmente respondo e-mails dentro de 24 horas.</p>
           <div className="go_button_container" style={{display: 'flex'}}>
             <button onClick={this.props.display.bind()}>Thanks</button>
           </div>

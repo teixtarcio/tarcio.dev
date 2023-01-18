@@ -10,62 +10,42 @@ export class Work extends Component {
 
       {
         id: uuid(),
-        title: "Checkmate",
-        description: "Sign up portal for Checkmate Africa community",
-        github: "https://github.com/kadetXx/checkmate",
-        live: "https://checkmate.africa/",
-        stack: "React + Styled Components",
+        title: "Habits",
+        description: "Gerenciador de hábitos e tarefas, com versões web e mobile",
+        github: "https://github.com/teixtarcio/nlw-setup-ignite",
+        live: "/",
+        stack: "NodeJS + ReactJS + React Native + Typescript",
         isPrivate: false,
       },
 
       {
         id: uuid(),
-        title: "Birdbox",
-        description: "Social application with Real time Messaging",
-        github: "https://github.com/kadetXx/birdbox",
-        live: "https://birdbox.space/",
-        stack: "Vue + Socket.io + Express",
+        title: "Bima",
+        description: "Aplicativo de previsão do tempo preciso em tempo real",
+        github: "/",
+        live: "/",
+        stack: "Typescript + NodeJS + OpenWeather API",
         isPrivate: false,
       },
 
       {
         id: uuid(),
-        title: "EndSars",
-        description: "Web app to support the #EndSARS campaign",
-        github: "https://github.com/kadetXx/endsars",
-        live: "https://endsars.vercel.app/",
-        stack: "React",
-        isPrivate: false,
+        title: "Em desenvolvimento",
+        description: "",
+        github: "",
+        live: "",
+        stack: "Em breve um novo projeto",
+        isPrivate: true,
       },
 
       {
         id: uuid(),
-        title: "Shoppies",
-        description: "Movie Awards Nomination App",
-        github: "https://github.com/kadetXx/shoppies",
-        live: "https://shoppiesawards.netlify.app/",
-        stack: "React + SASS",
-        isPrivate: false,
-      },
-
-      {
-        id: uuid(),
-        title: "Vectorly",
-        description: "Draw basic shapes with SVG",
-        github: "https://github.com/kadetXx/vectorly",
-        live: "https://vectorly.kadetxx.vercel.app/",
-        stack: "React",
-        isPrivate: false,
-      },
-
-      {
-        id: uuid(),
-        title: "Animepanda",
-        description: "Mobile App landing page",
-        github: "https://github.com/kadetXx/animepanda",
-        live: "https://animepanda.herokuapp.com",
-        stack: "Sass + Javsacript + PHP",
-        isPrivate: false,
+        title: "Em desenvolvimento",
+        description: "",
+        github: "",
+        live: "",
+        stack: "Em breve um novo projeto",
+        isPrivate: true,
       }, 
     ],
   };
@@ -91,7 +71,7 @@ export class Work extends Component {
           </Link>
           <Link to='/contact'>
             <button>
-              Contact <span class='material-icons'>arrow_right</span>
+              Contato <span class='material-icons'>arrow_right</span>
             </button>
           </Link>
         </div>
