@@ -90,7 +90,10 @@ export class Resume extends Component {
             e paixão pelo desenvolvimento de aplicativos.
             </p>
           </div>
-
+          <div className="summary">
+            <p>Tenho nível intermediário em <span className='highlight'>inglês</span>, conseguindo me comunicar, ler, escutar e escrever. 
+            Também tenho nível básico em <span className='highlight'>espanhol</span> e <span className='highlight'>francês</span>, por aulas já feitas em ambos idiomas.</p>
+          </div>
           <div className="divider">
             <p>Minhas tecnologias</p>
             <span></span>
@@ -103,13 +106,13 @@ export class Resume extends Component {
           </div>
 
           <div className="divider">
-            <p>Entusiasta em</p>
+            <p>Outras habilidades</p>
             <span></span>
           </div>
 
           <div className="skills">
             <p>
-              Segurança da informação, hacking ético, blockchain e outros.
+              Segurança da informação, hacking ético e UI & UX Design.
             </p>
           </div>
 
