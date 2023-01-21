@@ -10,22 +10,22 @@ export class Work extends Component {
 
       {
         id: uuid(),
-        title: "Bima",
-        description: "Aplicativo de previsão do tempo preciso em tempo real",
-        github: "/",
-        live: "/",
-        stack: "React Native + OpenWeather API + Typescript",
-        isPrivate: false,
-      },
-
-      {
-        id: uuid(),
         title: "Habits",
         description: "Gerenciador de hábitos e tarefas, com versões web e mobile",
         github: "https://github.com/teixtarcio/nlw-setup-ignite",
         live: "/",
         stack: "NodeJS + ReactJS + React Native + Typescript",
         isPrivate: false,
+      },
+
+      {
+        id: uuid(),
+        title: "Em desenvolvimento",
+        description: "",
+        github: "",
+        live: "",
+        stack: "Em breve um novo projeto",
+        isPrivate: true,
       },
 
       {
