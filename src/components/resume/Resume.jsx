@@ -79,15 +79,15 @@ export class Resume extends Component {
             </div>
           </div>
 
-          <p className="subheading">Desenvolvedor mobile</p>
+          <p className="subheading">Desenvolvedor Java</p>
 
           <div className="summary">
             <p>
-            Sou um desenvolvedor mobile, apaixonado por tecnologia. 
+            Sou um desenvolvedor java, apaixonado por tecnologia. 
             Estou sempre buscando aprender e me atualizar sobre as últimas 
             tendências e novidades do mercado, além disso tenho total convicção 
             que posso trazer valor para qualquer equipe com minhas habilidades 
-            e paixão pelo desenvolvimento de aplicativos.
+            e paixão pelo desenvolvimento de aplicações.
             </p>
           </div>
           <div className="divider">
@@ -97,7 +97,7 @@ export class Resume extends Component {
 
           <div className="skills">
             <p>
-              HTML/CSS, Javascript [ES6], Typescript, React, React Native e Expo.
+              Java e Spring Boot.
             </p>
           </div>
 
@@ -108,7 +108,7 @@ export class Resume extends Component {
 
           <div className="skills">
             <p>
-              Segurança da informação, hacking ético e UI & UX Design.
+              SQL, Git, hacking ético e conhecimentos sobre experiência do usuário (UX & UI).
             </p>
           </div>
 
