@@ -23,7 +23,7 @@ export class Base extends Component {
           <div className='description'>
             <p>
               <span>
-              Eu sou um <span className='highlight'>desenvolvedor mobile</span>. Crio experiências interativas para pessoas incríveis usando o ecossistema <span className="highlight two">Javascript</span>, com foco principalmente em <span className="highlight two">React</span> e <span className="highlight two">React Native</span>.
+              Eu sou um <span className='highlight'>desenvolvedor Java</span>. Crio experiências interativas para pessoas incríveis usando o ecossistema <span className="highlight two">Java</span>, com foco também em <span className="highlight two">Spring Boot</span>.
               </span>
             </p>
           </div>
