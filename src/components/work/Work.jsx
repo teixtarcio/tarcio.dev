@@ -10,9 +10,9 @@ export class Work extends Component {
 
       {
         id: uuid(),
-        title: "Habits",
-        description: "Gerenciador de hábitos e tarefas, com versões web e mobile",
-        github: "https://github.com/teixtarcio/nlw-setup-ignite",
+        title: "TShop E-commerce",
+        description: "RESTApi simulando uma loja online usando operações CRUD",
+        github: "https://github.com/teixtarcio/t-shop",
         live: "/",
         stack: "NodeJS + ReactJS + React Native + Typescript",
         isPrivate: false,
@@ -20,11 +20,11 @@ export class Work extends Component {
 
       {
         id: uuid(),
-        title: "Em desenvolvimento",
-        description: "",
-        github: "",
+        title: "TNPCActions",
+        description: "Plugin de Minecraft para manipular NPC's no jogo",
+        github: "https://github.com/teixtarcio/tnpc-actions",
         live: "",
-        stack: "Em breve um novo projeto",
+        stack: "Java + Spigot",
         isPrivate: true,
       },
 
