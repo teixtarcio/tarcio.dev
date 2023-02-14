@@ -20,11 +20,11 @@ export class Work extends Component {
 
       {
         id: uuid(),
-        title: "TNPCActions",
-        description: "Plugin de Minecraft para manipular NPC's no jogo",
-        github: "https://github.com/teixtarcio/tnpc-actions",
+        title: "Exercícios em Java",
+        description: "Códigos desenvolvidos dentro do curso do professor Nélio Alves",
+        github: "https://github.com/teixtarcio/java_exercises",
         live: "",
-        stack: "Java + Spigot",
+        stack: "Java + POO + Spring Boot",
         isPrivate: true,
       },
 
