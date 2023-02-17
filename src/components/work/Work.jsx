@@ -13,7 +13,7 @@ export class Work extends Component {
         title: "TRastreio",
         description: "Aplicativo de consulta de encomendas consumindo a API dos Correios",
         github: "https://github.com/teixtarcio/TRastreio/",
-        live: "/",
+        live: "https://github.com/teixtarcio/TRastreio/",
         stack: "Java + API Rest Correios",
         isPrivate: true,
       },
