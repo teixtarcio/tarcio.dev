@@ -10,21 +10,21 @@ export class Work extends Component {
 
       {
         id: uuid(),
-        title: "TShop E-commerce",
-        description: "RESTApi simulando uma loja online usando operações CRUD",
-        github: "https://github.com/teixtarcio/t-shop",
+        title: "TRastreio",
+        description: "Aplicativo de consulta de encomendas consumindo a API dos Correios",
+        github: "https://github.com/teixtarcio/TRastreio/",
         live: "/",
-        stack: "NodeJS + ReactJS + React Native + Typescript",
-        isPrivate: false,
+        stack: "Java + API Rest Correios",
+        isPrivate: true,
       },
 
       {
         id: uuid(),
-        title: "Exercícios em Java",
-        description: "Códigos desenvolvidos dentro do curso do professor Nélio Alves",
-        github: "https://github.com/teixtarcio/java_exercises",
+        title: "Em desenvolvimento",
+        description: "",
+        github: "",
         live: "",
-        stack: "Java + POO + Spring Boot",
+        stack: "Em breve um novo projeto",
         isPrivate: true,
       },
 
