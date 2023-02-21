@@ -83,7 +83,7 @@ export class Resume extends Component {
 
           <div className="summary">
             <p>
-            Sou um desenvolvedor java, apaixonado por tecnologia. 
+            Sou um desenvolvedor Fullstack, apaixonado por tecnologia. 
             Estou sempre buscando aprender e me atualizar sobre as últimas 
             tendências e novidades do mercado, além disso tenho total convicção 
             que posso trazer valor para qualquer equipe com minhas habilidades 
@@ -97,7 +97,7 @@ export class Resume extends Component {
 
           <div className="skills">
             <p>
-              Java e Spring Boot.
+              Javascript, Typescript, Node e ReactJS.
             </p>
           </div>
 
