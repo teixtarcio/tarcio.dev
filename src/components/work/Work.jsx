@@ -20,12 +20,12 @@ export class Work extends Component {
 
       {
         id: uuid(),
-        title: "Em desenvolvimento",
-        description: "",
-        github: "",
-        live: "",
-        stack: "Em breve um novo projeto",
-        isPrivate: true,
+        title: "TDDos",
+        description: "Ferramenta para automatizar um ataque de negação de serviços (Ddos)",
+        github: "https://github.com/teixtarcio/TDDos",
+        live: "https://github.com/teixtarcio/TDDos",
+        stack: "Javascript + API XMLHttpRequest",
+        isPrivate: false,
       },
 
       {
