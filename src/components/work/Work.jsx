@@ -25,7 +25,7 @@ export class Work extends Component {
         github: "https://github.com/teixtarcio/TDDos",
         live: "https://github.com/teixtarcio/TDDos",
         stack: "Javascript + API XMLHttpRequest",
-        isPrivate: false,
+        isPrivate: true,
       },
 
       {
